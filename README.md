@@ -23,9 +23,9 @@ SUIT CSS image utilities
 
 ### Configuration
 
-#### Overriding the display property
+#### Overriding the display property on responsive images
 
-By default images are set to `display: block` but this can be overridden with
+By default responsive images are set to `display: block` but this can be overridden with
 another utility, such as [suitcss-utils-display](https://github.com/suitcss/utils-display)
 
 ```css
