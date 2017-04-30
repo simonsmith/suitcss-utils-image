@@ -2,6 +2,10 @@
  * @define utilities
  */
 
+/*
+ * Allow an image to respond to its container width
+ */
+
 .u-imgResponsive {
   display: block;
   height: auto;
