@@ -28,7 +28,7 @@ SUIT CSS image utilities
 By default responsive images are set to `display: block` but this can be overridden with
 another utility, such as [suitcss-utils-display](https://github.com/suitcss/utils-display)
 
-```css
+```html
 <img class="u-imgResponsive u-inline" src="{src}" />
 ```
 
