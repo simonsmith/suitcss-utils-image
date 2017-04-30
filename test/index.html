@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Image [utility] - SUIT CSS</title>
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<link rel="stylesheet" href="../build/test.css">
+<style>
+  .img-container {
+    width: 400px;
+    background-color: red;
+  }
+</style>
+<div class="Test">
+  <h1 class="Test-title">SUIT CSS: <a href="https://github.com/simonsmith/suit-utils-image">image</a> tests</h1>
+
+  <h2 class="Test-describe">.u-imgResponsive</h2>
+  <h3 class="Test-it">it should allow an image to respond to parent width</h3>
+  <div class="Test-run img-container">
+    <img src="https://unsplash.it/600/480?image=12" class="u-imgResponsive" alt="">
+  </div>
+
+  <h3 class="Test-it">it should allow override the display with another utility</h3>
+  <div class="Test-run img-container">
+    <img src="https://unsplash.it/600/480?image=12" class="u-imgResponsive u-inline" alt="">
+  </div>
+</div>
